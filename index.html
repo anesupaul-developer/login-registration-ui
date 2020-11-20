@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Login Registration UI</title>
+<body>
+    <section class="welcome-section">
+        <!-- Show Option to Login or Register-->
+        <div class="main-page">
+            <div class="pagename">
+                <img src="./assets/images/home-3.png" alt="Home"/>
+                <h1>OneHouse</h1>
+                ... welcome home
+            </div>
+            <div class="form-btns">
+                <button class="sign-in-button">Sign In</button>
+                <button class="sign-in-oauth2-button">Take a tour</button>
+                <a class="create-account-button" href="#">Create New Account ?</a>
+            </div>
+            <div class="cancel-button">
+                <a href="#"><i class="fas fa-times">XW</i></a>
+            </div>
+        </div>
+
+        <!-- Show the Login Page -->
+        <div class="sign-in-page">
+            <form>
+                <input placeholder= "email address" type="email"/>
+                <input type="password" placeholder="password"/>
+                <button>Login</button>
+            </form>
+        </div>
+
+        <!-- Show the Registration Page -->
+        <div class="sign-up-page">
+            <form>
+                <input type="text" placeholder="First Name(s)"/>
+                <input type="tex" placeholder="Last Name"/>
+                <input placeholder= "Email Address" type="email"/>
+                <input type="password" placeholder="Password"/>
+                <input type="password" placeholder="Password Again"/>
+                <button>Register</button>
+            </form>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</head>
+</html>
